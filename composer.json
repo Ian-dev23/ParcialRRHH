@@ -1,0 +1,17 @@
+{
+    "name": "parcial/parcial",
+    "description": "Sistema de inscripcion a evento tecnologico - iTECH",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "phpoffice/phpspreadsheet": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Itech\\Config\\": "src/Config/",
+            "Itech\\Controllers\\": "src/Controllers/",
+            "Itech\\Models\\": "src/Models/",
+            "Itech\\Core\\": "src/Core/"
+        }
+    }
+}

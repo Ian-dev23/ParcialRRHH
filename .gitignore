@@ -1,0 +1,16 @@
+/vendor/
+/storage/keys/*.pem
+/storage/logs/*.log
+.env
+# Dependencias de Composer
+/vendor/
+
+# Llaves privadas de OpenSSL
+/storage/keys/private.pem
+/storage/keys/public.pem
+
+# Archivos temporales
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
